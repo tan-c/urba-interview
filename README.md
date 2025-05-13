@@ -14,11 +14,12 @@ Design both UI and API so that
 - View how many users users a particular referral code
 - View user search activity, understand mostly searched items 
 
-## Customer can
-- Use activate code and become a "Plus" user (need to handle various error cases)
-- User can view current status and see status expiry date
+## Existing user can
+- Activate code and become a "Plus" user (need to handle various error cases)
+- View current status and see status expiry date
 
 # Notes 
 - Please write code as if you are in real work environment, with proper comments, following naming conventions and best practices
+- No need to design flow for user registration, use data under /data folder as existing user
 - No need to design database, can use mock data instead
 - No need to worry about access control, assuming you can switch between users and agents
