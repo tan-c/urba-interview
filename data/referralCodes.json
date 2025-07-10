@@ -4,13 +4,48 @@
     "createdAt": "2025-07-10T10:10:14.306Z",
     "expireAt": "2025-08-09T10:10:14.306Z",
     "active": true,
-    "usedBy": []
+    "usedBy": [
+      "1",
+      "2",
+      "3",
+      "4"
+    ]
   },
   {
     "code": "LQ1873",
     "createdAt": "2025-07-10T10:10:29.292Z",
     "expireAt": "2025-08-09T10:10:29.292Z",
     "active": true,
+    "usedBy": [
+      "2"
+    ]
+  },
+  {
+    "code": "K7G89D",
+    "createdAt": "2025-07-10T11:31:58.512Z",
+    "expireAt": "2025-08-09T11:31:58.512Z",
+    "active": true,
+    "usedBy": []
+  },
+  {
+    "code": "THSS6G",
+    "createdAt": "2025-07-10T12:12:59.977Z",
+    "expireAt": "2025-08-09T12:12:59.977Z",
+    "active": true,
+    "usedBy": []
+  },
+  {
+    "code": "1QZ6BN",
+    "createdAt": "2025-07-10T12:15:27.658Z",
+    "expireAt": "2025-08-09T12:15:27.658Z",
+    "active": false,
+    "usedBy": []
+  },
+  {
+    "code": "NIL4YJ",
+    "createdAt": "2025-07-10T12:15:34.722Z",
+    "expireAt": "2025-08-09T12:15:34.722Z",
+    "active": false,
     "usedBy": []
   }
 ]

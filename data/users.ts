@@ -4,6 +4,7 @@ export type User = {
   email: string;
   status: string;
   type: "user" | "agent";
+  usedCodes?: string
 };
 
 export const users: User[] = [
