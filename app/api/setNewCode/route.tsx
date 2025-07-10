@@ -12,7 +12,7 @@ function generateCode() {
   }
   
 // POST: 生成推荐码
-export default async function POST(req: NextRequest) {
+export async function POST(req: NextRequest) {
     const code = generateCode();
     const now = new Date();
     const expireAt = new Date(now.getTime() + 30 * 24 * 60 * 60 * 1000); // 1个月

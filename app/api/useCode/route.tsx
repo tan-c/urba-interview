@@ -4,7 +4,7 @@ import { referralCodes, saveReferralCodes } from "@/data/referralCodes";
 
 
 // GET: 查询推荐码使用状况
-export default async function GET(req: NextRequest) {
+export async function GET(req: NextRequest) {
   const { searchParams } = new URL(req.url);
   const code = searchParams.get("code");
   if (!code) return NextResponse.json({ error: "Missing code" }, { status: 400 });
