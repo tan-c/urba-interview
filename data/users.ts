@@ -3,7 +3,9 @@ export type User = {
   name: string;
   email: string;
   status: string;
+  expireDate?: string;
   type: "user" | "agent";
+  referralCode?: string[];
 };
 
 export const users: User[] = [

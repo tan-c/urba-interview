@@ -5,6 +5,15 @@ export type SearchResult = {
   url: string;
 };
 
+export type UserActivity = {
+  id: number;
+  userId: number;
+  activity_type: string;
+  createdAt: string;
+  search_query: string;
+  search_results: SearchResult[];
+};
+
 export const userActivity = [
   {
     id: 1,
